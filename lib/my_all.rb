@@ -6,6 +6,6 @@ i = 0
 while i < collection.length 
 yield(collection[i])
 i = i + 1 
-block_return_values << yield(collection[i])
+yield(collection[i])
 end
 end
